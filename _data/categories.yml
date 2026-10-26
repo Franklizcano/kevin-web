@@ -1,0 +1,33 @@
+- slug: transferencias-pagos
+  name: Transferencias y pagos
+  description: Transferencias, TEF, pagos de servicios y acreditaciones.
+  number: "01"
+- slug: onboarding
+  name: Alta, suscripciones y representantes legales
+  description: Altas, suscripciones, identidad y gestión de representantes legales.
+  number: "02"
+- slug: inversiones
+  name: Inversiones
+  description: Suscripciones a fondos, tenencias y órdenes.
+  number: "03"
+- slug: plataforma-administracion
+  name: Plataforma y administración
+  description: Acceso, operadores, esquemas de firma y errores de SIB.
+  number: "04"
+- slug: comunidades-bancos-planes
+  name: Comunidades, bancos y planes
+  description: Vinculaciones, certificados, bancos y cambios de plan.
+  number: "05"
+- slug: integraciones-referencias-tecnicas
+  name: Integraciones y referencias técnicas
+  description: API, AUTOSIB, consola F12, certificados y formatos de archivo.
+  number: "06"
+- slug: home-informes
+  name: Home e informes
+  description: Saldos, reportes e impresión.
+  number: "07"
+- slug: app-echeq-vep
+  name: App, Echeq y VEP
+  description: Aplicación móvil, datos biométricos, Echeq y VEP.
+  number: "08"
+

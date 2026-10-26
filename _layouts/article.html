@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="article-shell">
+  {% assign current_category = site.data.categories | where: "name", page.category | first %}
+  <nav class="breadcrumbs" aria-label="Ruta de navegación">
+    <a href="{{ '/' | relative_url }}">Inicio</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/' | relative_url }}#{{ current_category.slug }}">{{ page.category | escape }}</a>
+  </nav>
+
+  <article class="article-page">
+    <header class="article-header">
+      <span class="eyebrow">{{ page.category | escape }}</span>
+      <h1>{{ page.title | escape }}</h1>
+      {% if page.summary %}<p class="article-summary">{{ page.summary | escape }}</p>{% endif %}
+    </header>
+
+    <div class="article-content">
+      {{ content }}
+    </div>
+
+    {% assign related_articles = site.pages | where: "category", page.category | sort_natural: "title" %}
+    {% assign related_count = 0 %}
+    {% for related in related_articles %}
+      {% if related.url != page.url %}
+        {% assign related_count = related_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if related_count > 0 %}
+      <aside class="related-articles" aria-labelledby="related-title">
+        <h2 id="related-title">Más de {{ page.category | escape }}</h2>
+        <ul>
+          {% assign shown = 0 %}
+          {% for related in related_articles %}
+            {% if related.url != page.url and shown < 4 %}
+              <li><a href="{{ related.url | relative_url }}">{{ related.title | escape }}</a></li>
+              {% assign shown = shown | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </aside>
+    {% endif %}
+    <a class="back-link" href="{{ '/' | relative_url }}#{{ current_category.slug }}">← Volver a {{ page.category | escape }}</a>
+  </article>
+</div>
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+    <meta name="theme-color" content="#f4f6f8">
+    <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Centro de Soporte Técnico, inicio">
+          <span class="brand-mark" aria-hidden="true">ST</span>
+          <span class="brand-copy">
+            <span class="brand-name">Soporte técnico</span>
+            <span class="brand-caption">Base de conocimiento</span>
+          </span>
+        </a>
+        <nav class="header-nav" aria-label="Navegación principal">
+          <a href="{{ '/' | relative_url }}">Inicio</a>
+          {% if page.layout == 'article' %}
+            <a class="nav-back" href="{{ '/' | relative_url }}#categorias">Categorías</a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span>Centro de Soporte Técnico</span>
+        <span>Guías y referencias de consulta</span>
+      </div>
+    </footer>
+  </body>
+</html>
+
