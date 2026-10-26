@@ -1,7 +1,7 @@
 title: Centro de Soporte Técnico
 description: Guías internas de soporte, procedimientos y referencias técnicas.
 url: ""
-baseurl: ""
+baseurl: "/kevin-web"
 markdown: kramdown
 permalink: pretty
 exclude:
@@ -34,4 +34,3 @@ defaults:
       type: pages
     values:
       layout: article
-
