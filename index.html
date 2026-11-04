@@ -37,7 +37,6 @@ title: Inicio
     {% for category in site.data.categories %}
       {% assign category_articles = articles | where: "category", category.name %}
       <a class="category-card" href="#{{ category.slug }}">
-        <span class="category-number">{{ category.number }}</span>
         <span class="category-card-copy">
           <strong>{{ category.name | escape }}</strong>
           <span>{{ category.description | escape }}</span>
@@ -54,14 +53,16 @@ title: Inicio
       <p class="eyebrow">Índice</p>
       <h2 id="directory-heading">Todas las guías</h2>
     </div>
-    <a class="top-link" href="#contenido-principal">Volver arriba ↑</a>
+    <div class="directory-actions">
+      <button id="show-all-categories" class="top-link reset-categories" type="button" hidden>Ver todas las categorías</button>
+      <a class="top-link" href="#contenido-principal">Volver arriba ↑</a>
+    </div>
   </div>
 
   {% for category in site.data.categories %}
     {% assign category_articles = articles | where: "category", category.name | sort_natural: "title" %}
     <section id="{{ category.slug }}" class="directory-category" aria-labelledby="heading-{{ category.slug }}">
       <div class="directory-category-heading">
-        <span class="category-number">{{ category.number }}</span>
         <div>
           <h3 id="heading-{{ category.slug }}">{{ category.name | escape }}</h3>
           <p>{{ category.description | escape }}</p>
