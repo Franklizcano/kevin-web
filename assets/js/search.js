@@ -99,3 +99,68 @@
   });
 })();
 
+(() => {
+  const cards = [...document.querySelectorAll(".category-card")];
+  const categories = [...document.querySelectorAll(".directory-category")];
+  const showAllButton = document.querySelector("#show-all-categories");
+
+  if (!cards.length || !categories.length || !showAllButton) return;
+
+  const showAll = ({ scroll = false } = {}) => {
+    cards.forEach((card) => {
+      card.hidden = false;
+      card.classList.remove("is-selected");
+      card.removeAttribute("aria-current");
+    });
+    categories.forEach((category) => { category.hidden = false; });
+    showAllButton.hidden = true;
+
+    if (scroll) {
+      document.querySelector("#categorias")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  const showCategory = (slug, { scroll = false } = {}) => {
+    const selectedCategory = document.getElementById(slug);
+    if (!selectedCategory?.classList.contains("directory-category")) return false;
+
+    cards.forEach((card) => {
+      const selected = card.getAttribute("href") === `#${slug}`;
+      card.hidden = !selected;
+      card.classList.toggle("is-selected", selected);
+      if (selected) card.setAttribute("aria-current", "location");
+      else card.removeAttribute("aria-current");
+    });
+    categories.forEach((category) => { category.hidden = category !== selectedCategory; });
+    showAllButton.hidden = false;
+
+    if (scroll) {
+      selectedCategory.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    return true;
+  };
+
+  cards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+      const slug = card.getAttribute("href")?.slice(1);
+      if (!slug || !showCategory(slug)) return;
+      event.preventDefault();
+      history.pushState(null, "", `#${slug}`);
+      showCategory(slug, { scroll: true });
+    });
+  });
+
+  showAllButton.addEventListener("click", () => {
+    history.pushState(null, "", `${location.pathname}${location.search}`);
+    showAll({ scroll: true });
+  });
+
+  window.addEventListener("popstate", () => {
+    const slug = location.hash.slice(1);
+    if (!slug || !showCategory(slug)) showAll();
+  });
+
+  const initialSlug = location.hash.slice(1);
+  if (initialSlug) showCategory(initialSlug);
+})();
+
