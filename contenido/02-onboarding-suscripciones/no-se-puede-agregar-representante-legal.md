@@ -8,19 +8,19 @@ source: ONB/no deja agregar RL.docx
 reviewed: true
 ---
 
-# No se puede agregar un representante legal
+Verificar en SIB si el banco ya realizo el primer imput a alguno de los bancos, esto le imposibilita al cliente las modificaciones.
 
-## Verificaciones
+Desde VisionIB dentro del histórico del banco si vemos alguna acción por parte del banco, quiere decir que ya dieron el primer imput.
 
-1. Consultar en la herramienta interna aprobada si el banco ya registró su primera intervención sobre el alta.
-2. Revisar el historial del banco. La fuente indica que, después de esa primera intervención, puede no ser posible modificar los datos.
-3. Confirmar el circuito de alta del banco: algunas entidades pueden requerir documentación presencial.
+![Imagen original del documento]({{ '/assets/originales/no-se-puede-agregar-representante-legal/captura-01.png' | relative_url }})
 
-## Precauciones
+![Imagen original del documento]({{ '/assets/originales/no-se-puede-agregar-representante-legal/captura-02.png' | relative_url }})
 
-La fuente nombra entidades como ejemplo; esa lista puede cambiar y no se incluye como regla general. No compartir capturas con datos personales fuera del canal interno autorizado.
+Verificar los bancos que agrega: por ejemplo, CITI Y BNA son FISICOS, es decir manual, debe presentar la docu en la sucursal y por eso no le permite agregar RL.
 
-## Resolución
+Img de ref.
 
-La fuente no detalla un mecanismo de excepción. Confirmar el flujo vigente con el referente de ONB antes de indicar una alternativa.
+![Imagen original del documento]({{ '/assets/originales/no-se-puede-agregar-representante-legal/captura-03.png' | relative_url }})
+
+![Imagen original del documento]({{ '/assets/originales/no-se-puede-agregar-representante-legal/captura-04.png' | relative_url }})
 

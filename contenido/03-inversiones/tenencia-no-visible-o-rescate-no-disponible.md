@@ -8,19 +8,21 @@ source: Inversiones/No visualiza tenencia o no puede rescatar una orden.docx
 reviewed: true
 ---
 
-# No se visualiza la tenencia o no se puede rescatar una orden
+El cliente no puede rescatar una orden ejecutada.
 
-## Pruebas iniciales
+![Imagen original del documento]({{ '/assets/originales/tenencia-no-visible-o-rescate-no-disponible/captura-01.png' | relative_url }})
 
-1. Ingresar en una ventana privada para descartar un problema de sesión o caché.
-2. Si se está usando una VPN, desactivarla y volver a probar, cuando las políticas de la organización lo permitan.
-3. Si persiste, probar desde una red alternativa autorizada.
+Cliente no visualiza tenencia
 
-## Datos para continuar el análisis
+![Imagen original del documento]({{ '/assets/originales/tenencia-no-visible-o-rescate-no-disponible/captura-02.png' | relative_url }})
 
-Si el problema continúa, solicitar una captura legible con fecha y hora. Revisar la captura antes de adjuntarla al caso para evitar exponer información que no sea necesaria.
+Para ambos casos.
 
-## Escalamiento
+Que ingrese en modo incógnito, puede ser un tema de caché de la sesión
 
-La fuente no precisa el canal de derivación. Confirmarlo con el referente de Inversiones.
+sí está con la VPN, que la desactive y vuelva a intentar
+
+si sigue sin poder ver su tenencia, que intente desde una red no corporativa (puede ser su red personal o compartiéndose desde el celu)
+
+Si persiste, enviar captura de pantalla legible con fecha y hora del incidente.
 

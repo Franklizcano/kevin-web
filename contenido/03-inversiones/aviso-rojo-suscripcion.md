@@ -8,18 +8,21 @@ source: Inversiones/cartel rojo al cargar suscripcion .docx
 reviewed: true
 ---
 
-# Aviso rojo al cargar una suscripción
+El caso se presenta cuando el cliente no puede realizar suscripciones y le salta un cartel de aviso.
 
-## Verificaciones
+![Imagen original del documento]({{ '/assets/originales/aviso-rojo-suscripcion/captura-01.jpg' | relative_url }})
 
-1. Confirmar si el cliente tiene activo el perfil inversor.
-2. Si el perfil está activo y el aviso persiste, recopilar evidencia y derivar el caso.
+Lo primero que verificamos, es si el cliente tiene el perfil inversor activo.
 
-## Datos para continuar el análisis
+En caso de poseerlo activo, derivamos el caso por CRM junto con:
 
-La fuente solicita identificación de la empresa, del operador y una captura completa con fecha y hora. Compartir estos datos únicamente en el sistema interno aprobado; no incluir ejemplos reales en la web.
+Cuit
 
-## Escalamiento
+Razón social
 
-Derivar a Soporte mediante CRM según el procedimiento vigente.
+Abonado
+
+Cuil del op que realizo la acción.
+
+captura de pantalla sin recortar (fecha y hora visibles)
 

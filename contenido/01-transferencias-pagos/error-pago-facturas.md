@@ -8,19 +8,23 @@ source: Pagos/error en pago de facturas.docx
 reviewed: true
 ---
 
-# Error al pagar una factura de servicios
+Pago de servicios con error
 
-## Cuándo consultar esta guía
+Caso 1
 
-La fuente describe dos situaciones: el pago no puede continuar y la factura queda eliminada tras un error; o una factura que antes se encontraba ya no aparece.
+No podemos avanzar con el pago, las facturas tuvieron un error y fueron eliminadas
 
-## Datos para continuar el análisis
+Caso 2
 
-- Captura legible con fecha y hora.
-- Identificación del operador afectado, por el canal interno autorizado.
-- Factura completa y el archivo original o una copia del archivo. La fuente indica que una imagen de la factura no alcanza.
+También a veces sucede que el cliente un día no puede pagar la factura porque no la encuentra cuando anteriormente lo realizaba sin inconvenientes
 
-## Resolución y escalamiento
+![Imagen original del documento]({{ '/assets/originales/error-pago-facturas/captura-01.png' | relative_url }})
 
-La fuente no especifica pasos de resolución ni el equipo responsable. Recopilar la evidencia y confirmar el canal vigente con el referente del módulo antes de derivar.
+Nesitamos
+
+Captura de pantalla legible con fecha y hora
+
+cuiL del op que recibió el error
+
+factura completa, archivo original o copia, no imágenes.
 

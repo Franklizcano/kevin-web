@@ -8,23 +8,33 @@ source: Guias y ayudas/Consola F12.docx
 reviewed: true
 ---
 
-# Uso de la consola de desarrolladores (F12)
+F12 (consola desarrolladores)
 
-## Antes de reproducir el error
+IMPORTANTE: la consola debe estar abierta antes de reproducir el error
 
-1. Abrir las herramientas de desarrollador del navegador.
-2. Seleccionar la pestaña Network y dejarla abierta.
-3. Reproducir el problema una sola vez y localizar la solicitud fallida.
+Consola F12 en Chrome, posicionando el cursor en cualquier parte de la pantalla que no ejecute ninguna acción el cursor, clic secundario &gt; inspeccionar y nos paramos sobre la pestaña Network
 
-## Información que puede orientar el análisis
+Reproducir el error, podemos verificar en el listado desplegable debajo de “NAME” e ingresar en el titulo en ROJO el cual sería nuestro error en este caso, luego ir a RESPONSE y PAYLOAD para verificar el contexto del error, el mismo nos dará guía
 
-Abrir la solicitud y revisar Response y Payload. La fuente indica que en algunos casos Response puede estar vacío; Payload puede aportar contexto adicional.
+En algunos casos puede no mostrar detalles del error en RESPONSE y PAYLOAD
 
-## Manejo seguro de la evidencia
+![Imagen original del documento]({{ '/assets/originales/uso-consola-f12/captura-01.png' | relative_url }})
 
-Las solicitudes pueden incluir datos personales, tokens, identificadores o información de sesión. Revisar y sanitizar la captura o exportación antes de adjuntarla a un caso. No publicar respuestas, payloads ni registros reales.
+![Imagen original del documento]({{ '/assets/originales/uso-consola-f12/captura-02.png' | relative_url }})
 
-## Escalamiento
+en este caso la ref. es el error “company” que es el ultimo
 
-Compartir la evidencia solo mediante el canal interno autorizado y con los datos mínimos necesarios.
+luego de dar clic (si ya no está abierta) se abrirá una sección adicional en la que nos posicionamos sobre “RESPONSE”, (de estar vacío, pararse sobre PAYLOAD)
+
+en la siguiente imagen veremos el contexto del error el cual nos proporciona suficiente info para determinar si podemos atajar el error en primera instancia o debe derivarse a Soporte Productivo.
+
+![Imagen original del documento]({{ '/assets/originales/uso-consola-f12/captura-03.png' | relative_url }})
+
+Esta captura de pantalla es requerida en la mayoría de los errores para un análisis más eficiente y Ágil y rápido.  
+  
+PD 1: también nos podemos guiar por las X rojas que están en la misma línea que el menú “network” esto nos dice la cantidad de errores reflejados al intentar una acción que no se nos permite.
+
+![Imagen original del documento]({{ '/assets/originales/uso-consola-f12/captura-04.png' | relative_url }})
+
+PD 2: siempre dejar las capturas de pantalla con fecha y hora para facilitar búsqueda en logs.
 

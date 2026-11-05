@@ -8,17 +8,17 @@ source: Transferencias Plat/no visualiza sus cuentas al confeccionar TEF por PLA
 reviewed: true
 ---
 
-# No aparecen todas las cuentas al confeccionar una TEF en PLAT
+Colaborador no visualiza todas sus cuentas débitos y/o créditos al intentar realizar una tef
 
-## Cuándo consultar esta guía
+Puede ser cuentas propias, proveedores, etc.
 
-Al confeccionar una TEF en PLAT, ya sea entre cuentas propias o hacia proveedores, faltan cuentas débito o crédito en las opciones disponibles.
+Img de referencia que solo ve 1 cuenta.
 
-## Datos para continuar el análisis
+![Imagen original del documento]({{ '/assets/originales/cuentas-no-visibles-tef-plat/captura-01.png' | relative_url }})
 
-La fuente contiene una captura de referencia, pero no define causas ni verificaciones. Recopilar una captura completa y legible, el paso exacto del flujo, el tipo de transferencia y las cuentas afectadas por el canal interno autorizado.
+![Imagen original del documento]({{ '/assets/originales/cuentas-no-visibles-tef-plat/captura-02.png' | relative_url }})
 
-## Resolución y escalamiento
+![Imagen original del documento]({{ '/assets/originales/cuentas-no-visibles-tef-plat/captura-03.png' | relative_url }})
 
-La fuente original describe el síntoma y aporta una captura de referencia, pero no documenta causas ni una resolución. Para continuar el análisis, recopilar el paso exacto del flujo y las cuentas afectadas, y derivar al área de Transferencias por el circuito habitual. No atribuir el problema a permisos, configuración o disponibilidad sin evidencia.
+![Imagen original del documento]({{ '/assets/originales/cuentas-no-visibles-tef-plat/captura-04.png' | relative_url }})
 

@@ -8,13 +8,7 @@ source: Esquemas de firma/no visualiza restricciones de modificacion.docx
 reviewed: true
 ---
 
-# No aparecen las restricciones de modificación del esquema de firma
+para cuando un banco no ve las restricciones luego de una modif hecha por plat 2.0, ya que la modif elimina las restricciones.
 
-## Verificaciones
-
-La fuente indica que una modificación realizada desde PLAT 2.0 puede eliminar las restricciones visibles. Si se necesitan restricciones por tipo de TEF, la fuente recomienda realizar la modificación desde la opción de Esquemas de Firma de SIB.
-
-## Precaución
-
-Confirmar que la ruta y el comportamiento sigan vigentes en la versión actual antes de orientar al usuario. La fuente no detalla cómo recuperar restricciones eliminadas.
+si la modificacion la hizo desde la nueva plataforma, las restricciones se borran. Si tiene restricciones por tipo de tef debe modificar desde SIB, o sea, entrar a la card de la derecha de la home de esquemas de firmas
 

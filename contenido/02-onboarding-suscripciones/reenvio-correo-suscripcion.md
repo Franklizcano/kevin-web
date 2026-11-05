@@ -8,16 +8,17 @@ source: ONB/Reenvio de correo.docx
 reviewed: true
 ---
 
-# Reenvío de correo de suscripción
+El reenvio de correos se realiza desde la suscripción, es decir desde suscribite, no desde ingresa.
 
-## Verificaciones
+Suscribite - habilitado
 
-1. Confirmar que la dirección de correo registrada sea correcta por el canal interno autorizado.
-2. La fuente indica que el reenvío se gestiona desde el flujo “Suscribite”, no desde “Ingresa”.
-3. Si la opción está habilitada, realizar el reenvío desde el flujo indicado.
-4. Si la opción aparece deshabilitada, pedir a MDA que genere un caso para Soporte.
+![Imagen original del documento]({{ '/assets/originales/reenvio-correo-suscripcion/captura-01.jpg' | relative_url }})
 
-## Precauciones
+En caso de estar grisada la opción, pedir a MDA levante caso a Soporte para nuevo envio.
 
-No incluir direcciones de correo personales en la página ni en capturas de ejemplo.
+IMPORTANTE: verificar que los email sean correctos.
+
+Ingresa - deshabilitado
+
+![Imagen original del documento]({{ '/assets/originales/reenvio-correo-suscripcion/captura-02.png' | relative_url }})
 

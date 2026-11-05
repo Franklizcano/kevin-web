@@ -8,17 +8,5 @@ source: Vep/VEP.docx
 reviewed: true
 ---
 
-# Consulta o reactivación de un VEP
-
-## Datos para continuar el análisis
-
-La fuente solicita que los VEP se compartan en texto plano para agilizar la consulta o reactivación.
-
-## Manejo seguro
-
-El identificador puede contener información financiera. Enviarlo solo por el canal interno autorizado y evitar capturas, publicación en la web o mensajes sin protección.
-
-## Alcance de la fuente
-
-El documento original establece cómo remitir el identificador para agilizar la consulta o reactivación; el análisis y la acción se realizan por el circuito interno correspondiente.
+Por favor, Todos los Vep que requieran ser consultados o revividos, deben estar en texto plano para agilizar el proceso.
 

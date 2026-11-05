@@ -8,22 +8,31 @@ source: Inversiones/ordenes rechazadas.docx
 reviewed: true
 ---
 
-# Órdenes de inversión rechazadas
+Ordenes rechazadas
 
-## Posibles situaciones que describe la fuente
+Se pueden presentar por diferentes errores.
 
-- La orden puede rechazarse por falta de fondos.
-- Puede existir una demora o falta de respuesta del banco.
-- En algunos bancos, la confirmación no es inmediata y el estado puede permanecer en ejecución durante el día.
-- Puede haber una diferencia entre el estado informado por el banco y el que aparece en el módulo.
+1 –porque el cliente no tiene fondos suficientes, solo se verifica en base AWS (Enviar caso a Soporte, captura con fecha y hora)
 
-## Verificaciones
+2 –porque no está respondiendo el banco (contacto con el banco mediante Emi o desarrollo) (Enviar caso a Soporte, captura con fecha y hora)
 
-1. Revisar el estado que muestra el módulo y la fecha/hora de la operación.
-2. Si el cliente informa que el banco debitó la operación, solicitarle que confirme el estado con su banco antes de concluir que la operación se acreditó.
-3. No prometer un plazo de actualización: los tiempos varían según la entidad y la fuente no está actualizada para todos los bancos.
+3 – puede haber algún reclamo que en su banco ve la orden ejecutada y debitada, pero en nuestra base luego de un tiempo u horas, sigue estando en “ejecución”.
 
-## Datos y escalamiento
+Las ordenes pueden llegar hasta el final del día en ese estado, nos informa el banco (cada hora hacemos la consulta) y recién cuando nos da el ok ahí recién cambiamos a ejecutada en el módulo.
 
-La fuente solicita evidencia con fecha y hora para derivar a Soporte. Confirmar el conjunto de datos y el canal vigente antes de abrir el caso.
+bbva
+
+city
+
+procesan y debitan al instante, es online (segundos a 1 min de delay)
+
+galicia
+
+icbc
+
+4 – cliente reclama por una orden que visualiza como ejecutada en su banco, pero, al revisar el módulo de IB, se observa que una o varias de las órdenes figura como rechazada.
+
+Primero el cliente deberá comunicarse con su banco para validar el estado de la operación ya que podría haber sido timeout por parte del banco lo que hizo que no se pudiera procesar la orden.
+
+5- operaciones programadas que no están permitidas para el canal del módulo.
 

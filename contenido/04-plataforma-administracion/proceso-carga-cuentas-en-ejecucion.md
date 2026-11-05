@@ -8,17 +8,9 @@ source: Cuentas/ya existe un proceso en ejecucion.docx
 reviewed: true
 ---
 
-# Carga de cuentas bloqueada por un proceso en ejecución
+En algunos casos podemos recibir incidentes donde indiquen que intentan hacer un upload de cuentas pero que le queda el msj “ya hay un proceso en ejecución”
 
-## Cuándo consultar esta guía
+Se debe a que el proceso anterior quedo colgado.
 
-Al cargar cuentas, aparece un aviso de que ya existe un proceso en ejecución.
-
-## Procedimiento
-
-La fuente indica que un proceso anterior puede haber quedado detenido. Derivar a Soporte para que revise y corrija el estado del proceso mediante el mecanismo autorizado.
-
-## Escalamiento
-
-No volver a iniciar cargas repetidamente ni ejecutar scripts. Solicitar intervención de Soporte por el canal vigente.
+Es un error conocido, pero no habitual, se debe levantar un caso a Soporte mediante MDA para corregir por script.
 

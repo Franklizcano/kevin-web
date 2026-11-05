@@ -8,15 +8,19 @@ source: Home/card home.docx
 reviewed: true
 ---
 
-# Diferencia de saldo en la tarjeta de Home
+Interfaces
 
-## Verificaciones
+Cliente informa que al consultar la card de la home por IB, ve un monto diferente al que tiene en su homebanking.
 
-1. Registrar la fecha y hora en que se consultó el saldo.
-2. Revisar cuándo se actualizó la interfaz del banco correspondiente.
-3. Considerar que los movimientos con fecha valor y los saldos pueden actualizarse en distintos horarios.
+La consulta la realizo a las 7:39am
 
-## Resolución
+La rta es:
 
-La fuente atribuye algunos desfases temporales a los ciclos de actualización de la interfaz bancaria. No asumir que todo desfase es normal; confirmar los horarios vigentes y comparar nuevamente la información actualizada.
+en ese rango horario que consulta el cliente corren procesos y suele ajustar todo lo que son movimientos fecha valor y saldos.  
+  
+pero si ahora le devuelve bien la data es por eso, porque corrió la interfaz basicamente.  
+  
+Los bancos nos informan entre las 8:30 y 9:30 aprox, dependiendo de cada banco, puede ser por eso que vio el desfase.
+
+NOTA: siempre verificar el horario de actualización de la interfaz del banco
 

@@ -8,20 +8,27 @@ source: ONB/proceso de validacion de RL.docx
 reviewed: true
 ---
 
-# Recomendaciones para validar la identidad de un representante legal
+Hay que tener en cuenta ciertas consideraciones al momento de validar identidad para un RL.
 
-## Antes de iniciar
+Iluminación
 
-La fuente recomienda verificar que el documento esté legible y sin manchas u otros elementos que oculten información.
+Borrosidad
 
-## Durante la captura
+Rapidez del proceso
 
-- Asegurar buena iluminación y evitar sombras.
-- Mantener el documento enfocado y a una distancia adecuada.
-- Evitar movimientos bruscos durante el proceso.
-- Seguir las indicaciones que muestra la pantalla.
+Sombras
 
-## Nota
+Distancia
 
-La fuente incluye carteles de error en capturas, pero no describe la resolución de cada uno. Si el error persiste con una captura legible, recopilar el mensaje y escalar por el canal vigente de ONB.
+Condición del documento
+
+Documento sin detalles, etiquetas, manchas, etc.
+
+En algunas circunstancias podrían enfrentar los siguientes carteles, bien sea por celular o web al momento de validar si no se apegan a las recomendaciones.
+
+![Imagen original del documento]({{ '/assets/originales/validacion-identidad-representante-legal/captura-01.png' | relative_url }})
+
+![Imagen original del documento]({{ '/assets/originales/validacion-identidad-representante-legal/captura-02.png' | relative_url }})
+
+![Imagen original del documento]({{ '/assets/originales/validacion-identidad-representante-legal/captura-03.png' | relative_url }})
 

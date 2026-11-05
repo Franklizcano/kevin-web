@@ -8,19 +8,37 @@ source: Cuentas/Errores de referencia en SIB.docx; Offerings/Errores de referenc
 reviewed: true
 ---
 
-# Error de referencia en SIB
+Errores de referencia en SIB
 
-## Verificaciones
+Verificar si se logueo error del incidente en el visor de SIB con el número de documento del operador
 
-1. Revisar el visor de errores de SIB con el identificador del operador, si el equipo tiene acceso autorizado.
-2. Si el error no aparece allí o no corresponde a un error conocido, abrir las herramientas de desarrollador antes de reproducirlo y revisar la solicitud fallida en la pestaña Network. Consultar [Uso de la consola de desarrolladores](../06-api-integraciones/uso-consola-f12.md).
-3. Registrar el texto del error sin agregar datos personales o secretos.
+en caso de existir, copiar y pegar en texto plano dentro del doc. adj
 
-## Evidencia requerida
+en caso de no existir, aclararlo dentro del doc.
 
-La captura debe ser legible e incluir el contexto de la pantalla y el momento del error. La fuente pide nombre de operador y empresa; compartir esos datos solo dentro del sistema de casos autorizado.
+captura de pantalla que aparezca fecha, hora, nombre del op y empresa (sin excepción) (no se tomaran casos con capturas con celular ni recortadas no legibles)
 
-## Escalamiento
+si no es un error conocido como, por ejemplo, al entrar en cuentas, en esquemas de firma, operadores, por customer cuit, etc, es necesario mirar la consola F12 para achicar el tiempo de análisis y resolución.
 
-La fuente recomienda usar este diagnóstico para acelerar el análisis. Confirmar el circuito actual de Soporte y adjuntar la respuesta técnica únicamente por canales internos aprobados.
+El error quedara logueado en consola dentro la pestaña de “Network” y debe estar abierta la consola antes de reproducir el error, este mismo se vera reflejado en rojo, ingresamos a el con un clic y verificamos dentro de response si hay algún msj del error para guiarnos.
+
+Ver Doc. Consola F12 para mas detalles
+
+---
+
+Errores de referencia en SIB
+
+Verificar si se logueo error del incidente en el visor de SIB con el número de documento del operador
+
+en caso de existir, copiar y pegar en texto plano dentro del doc. adj
+
+en caso de no existir, aclararlo dentro del doc.
+
+captura de pantalla que aparezca fecha, hora, nombre del op y empresa (sin excepción) (no se tomaran casos con capturas con celular ni recortadas no legibles)
+
+si no es un error conocido como, por ejemplo, al entrar en cuentas, en esquemas de firma, operadores, por customer cuit, etc, es necesario mirar la consola F12 para achicar el tiempo de análisis y resolución.
+
+El error quedara logueado en consola dentro la pestaña de “Network” y debe estar abierta la consola antes de reproducir el error, este mismo se vera reflejado en rojo, ingresamos a el con un clic y verificamos dentro de response si hay algún msj del error para guiarnos.
+
+Ver Doc. Consola F12 para mas detalles
 

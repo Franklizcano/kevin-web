@@ -8,22 +8,19 @@ source: Pagos/la cuenta contraparte no está habilitada.docx
 reviewed: true
 ---
 
-# La cuenta contraparte no está habilitada
+Descripción general del incidente: está confeccionando una transferencia btob por
 
-## Cuándo consultar esta guía
+PAGOS &gt; preconfecc BtoB &gt; propias una tef a CAJA DE VALORES MK PLACE
 
-Al confirmar una transferencia BtoB a una comunidad, el sistema indica que la cuenta contraparte no está habilitada.
+y al confirmar le sale msj “ la cuenta contraparte no está habilitada”
 
-## Verificaciones
+![Imagen original del documento]({{ '/assets/originales/cuenta-contraparte-no-habilitada/captura-01.jpg' | relative_url }})
 
-1. Confirmar que la cuenta contraparte esté habilitada para la empresa o que no haya quedado pendiente su habilitación.
-2. La fuente aclara que, para la TEF BtoB descrita, no se requiere que la cuenta de crédito de la comunidad esté habilitada para el cliente. Validar que esta regla siga vigente antes de publicarla.
+Se verifica si el cliente tiene la habilitada la cuenta contraparte de la comunidad a la que intenta transferir o en proceso de habilitación.
 
-## Datos para continuar el análisis
+Al ser una tef b2b, no es requerida la cuenta crédito de la comunidad habilitada para el cliente.
 
-La fuente contiene identificadores de cuentas y consultas internas. No copiarlos a la página. Recopilar los datos mínimos mediante el canal interno autorizado.
+select * from prsib.cta_contraparte where cta_id=242331462 and cli_id=503506;
 
-## Escalamiento
-
-Si la cuenta está habilitada y el aviso persiste, registrar la evidencia y derivar el caso al área de Pagos por el circuito de soporte vigente.
+select * from prsib.cta_por_vend where vend_com_id=920125;
 

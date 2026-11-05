@@ -8,13 +8,9 @@ source: Inversiones/No visualiza icono para agregar bancos.docx
 reviewed: true
 ---
 
-# No aparece la opción para agregar bancos
+El op no visualiza el icono para agregar bancos.
 
-## Verificación
+![Imagen original del documento]({{ '/assets/originales/opcion-agregar-bancos-no-visible/captura-01.png' | relative_url }})
 
-La fuente indica que la opción solo está disponible para administradores generales. Confirmar el rol del operador y la vigencia de este permiso.
-
-## Resolución
-
-Si el operador no tiene ese rol, el comportamiento puede ser esperado. La fuente no describe un trámite para modificar permisos; confirmar el circuito con el administrador del módulo.
+Solo los admin generales pueden ver esa opción.
 

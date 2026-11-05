@@ -8,18 +8,15 @@ source: Transferencias Plat/tef no confeccionada yo rechazada.docx
 reviewed: true
 ---
 
-# TEF no confeccionada o rechazada
+No Podemos confeccionar el lote o tef rechazada.
 
-## Cuándo consultar esta guía
+Si observamos la imagen, la cuenta credito figura como BMA, lo cual no esta bien ya que ese banco no esta operativo en IB.
 
-No se puede confeccionar un lote o una TEF queda rechazada.
+![Imagen original del documento]({{ '/assets/originales/tef-no-confeccionada-o-rechazada/captura-01.png' | relative_url }})
 
-## Verificaciones
+![Imagen original del documento]({{ '/assets/originales/tef-no-confeccionada-o-rechazada/captura-02.png' | relative_url }})
 
-1. Revisar si las cuentas seleccionadas pertenecen a bancos habilitados y operativos en la plataforma.
-2. Si el banco no está operativo o los datos de la cuenta parecen desactualizados, no intentar corregirlos manualmente.
+Verifiquemos que las cuentas que va a utilizer sean de bancos operativos en IB, de lo contrario, es muy possible que esten desactualizadas las cuentas entre tablas para el cliente.
 
-## Escalamiento
-
-La fuente indica derivar a Soporte mediante MDA cuando se necesite corregir una asociación de cuenta. Adjuntar la evidencia completa y legible del rechazo; confirmar los datos requeridos por el canal vigente.
+Se arregla por script de Soporte mediante caso recibido por MDA.
 

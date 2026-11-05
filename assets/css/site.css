@@ -461,3 +461,30 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .site-footer-inner { align-items: flex-start; justify-content: center; flex-direction: column; gap: .1rem; padding: .8rem 0; }
 }
 
+
+
+.article-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2rem auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+}
+.article-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  color: var(--ink-soft);
+  font-size: .88rem;
+}
+.article-content th, .article-content td {
+  border: 1px solid var(--line);
+  padding: .45rem .6rem;
+  text-align: left;
+  vertical-align: top;
+}
+.article-content th { color: var(--ink); background: rgba(255,255,255,.04); }

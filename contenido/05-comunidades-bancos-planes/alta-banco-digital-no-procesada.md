@@ -8,17 +8,13 @@ source: DNB/alta DNB- No podemos procesar tu solicitud.docx
 reviewed: true
 ---
 
-# Error al dar de alta un banco digital
+La operadora  Rocio Elosegui (27403208332) por la empresa EDITORIAL RIO NEGRO S.A (30500152547) cuando da de alta un banco digital por la ruta administración&gt;cuentas&gt;alta de cuentas propias desde nuevos bancos
 
-## Verificación inicial
+le sale un cartel indicando “no se pudo procesar solicitud”
 
-Confirmar que el banco seleccionado esté habilitado y operativo en la plataforma. La fuente describe un caso en que el banco elegido todavía no estaba operativo; el mensaje no implicaba una falla general del alta.
+![Imagen original del documento]({{ '/assets/originales/alta-banco-digital-no-procesada/captura-01.png' | relative_url }})
 
-## Nota
+Como podemos verificar en la evidencia, está tratando de dar de alta			 el “Galicia Más” un banco que no esté operativo en IB.
 
-La disponibilidad de bancos cambia. No publicar listas fijas tomadas de un caso antiguo; consultar la fuente institucional vigente.
-
-## Escalamiento
-
-Si el banco está operativo y el error persiste, recopilar el mensaje completo y derivar por el canal actual de Soporte.
+Siempre debemos verificar que los bancos seleccionados por el cliente estén habilitados y operativos en IB.
 

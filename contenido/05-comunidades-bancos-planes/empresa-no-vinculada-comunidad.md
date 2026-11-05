@@ -8,15 +8,11 @@ source: Comunidades/su empresa no se encuentra vinculada con la comunidad.docx
 reviewed: true
 ---
 
-# La empresa no aparece vinculada con la comunidad
+reporta la comunidad recaudadora YPF SA ya que el cliente tiene que realizar un pago y le sale un msj de error para que relacione la comunidad y ya la tiene relacionada
 
-## Verificaciones
+![Imagen original del documento]({{ '/assets/originales/empresa-no-vinculada-comunidad/captura-01.png' | relative_url }})
 
-1. Confirmar la fecha y hora del intento.
-2. Verificar si la operación se realizó antes de que se completara el alta o la vinculación.
-3. Si el problema persiste, solicitar una captura legible con fecha y hora.
+Verificar fecha y hora, pudo haber intentado ingresar antes de darse de alta.
 
-## Escalamiento
-
-La fuente no indica el equipo responsable ni la herramienta para verificar el vínculo. Completar ese circuito antes de publicar la ficha como procedimiento completo.
+Si persiste, enviar captura con fecha y hora por favor.
 

@@ -8,16 +8,15 @@ source: Comunidades/la firma de la comunidad no pudo ser validada.docx
 reviewed: true
 ---
 
-# No se pudo validar la firma de la comunidad
+![Imagen original del documento]({{ '/assets/originales/firma-comunidad-no-validada/captura-01.png' | relative_url }})
 
-## Procedimiento indicado por la fuente
+Descargar el certificado e incluirlo en vuestros repositorios desde la siguiente ruta:
 
-1. Para una empresa, ingresar a Administración > ABM/Configuración de datos > Bancos y cuentas / Datos de empresa.
-2. Para una comunidad, ingresar a Administración > ABM/Configuración de datos > Comunidad.
-3. Abrir la sección Certificado Digital y descargar el certificado de Interbanking.
-4. Reemplazar el certificado anterior en la implementación que corresponda y repetir la prueba.
+1)      Seleccionar la ruta Administración &gt; ABM|configuración datos &gt; Bancos y cuentas / Datos de empresa (en caso de ser cliente) o Administración &gt; ABM | Configuración Datos &gt; Comunidad (para comunidades)
 
-## Precauciones
+2)      Ir a la sección “Certificado Digital”, y hacer clic en "Descargar certificado de Interbanking":
 
-La ruta de menú varía según se trate de una empresa o de una comunidad. Confirmar la ruta vigente y la instalación con el referente técnico. No publicar certificados ni claves privadas.
+![Imagen original del documento]({{ '/assets/originales/firma-comunidad-no-validada/captura-02.jpg' | relative_url }})
+
+3)      Con el archivo descargado reemplazaran el que tenían en uso, instalándolo para el proceso de encripción.
 

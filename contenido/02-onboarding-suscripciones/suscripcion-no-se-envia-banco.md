@@ -8,18 +8,21 @@ source: ONB/No se envia suscrip al banco.docx
 reviewed: true
 ---
 
-# La suscripción no se envía al banco
+En algunas ocasiones, no deja realizar el envió de la suscripción al banco.
 
-## Verificaciones
+Nos podríamos en la consola F12, muy probable tengamos indicio del inconveniente que se presenta, o en su defecto, derivar a MDA para que Soporte verifique si es una de las dos casuísticas más recurrentes.
 
-1. Si corresponde y está permitido, abrir la consola F12 antes de reproducir el error y revisar la solicitud fallida. Consultar la guía [Uso de la consola de desarrolladores]({% link contenido/06-api-integraciones/uso-consola-f12.md %}).
-2. La fuente menciona como posibles causas una cuenta que no corresponde a la empresa, credenciales faltantes o una validación de cuenta bancaria. Confirmar cada caso con los sistemas oficiales; no inferirlo solo por el mensaje visible.
+La cuenta con CBU “021213612873” pertenece a otra empresa
 
-## Datos para continuar el análisis
+El cliente está utilizando cuentas que no le pertenecen en ruc como primer titular. (corregible por script si en ruc esta ok y en nuestra base falta actualizar, caso contrario no sea el titular en ruc, no se pueden utilizar ni regularizar en SIB)
 
-Registrar el mensaje completo, paso del flujo y fecha/hora. No publicar ni enviar datos de cuentas o credenciales en capturas o canales no aprobados.
+Falta user_id y passw_id
 
-## Escalamiento
+Algún op de la suscripción, no tiene generado credenciales para una empresa anterior. (corregible por recupero)
 
-Solicitar intervención de MDA/Soporte cuando las verificaciones iniciales no resuelvan el caso. La fuente indica que algunas inconsistencias requieren regularización técnica.
+ar.com.ib.ruc.service.RutinasCbuBancosRucException: validaCuenta.digitoErroneo
+
+Imagen de referencia, donde podemos visualizar “No podemos enviar la solicitud”
+
+![Imagen original del documento]({{ '/assets/originales/suscripcion-no-se-envia-banco/captura-01.png' | relative_url }})
 

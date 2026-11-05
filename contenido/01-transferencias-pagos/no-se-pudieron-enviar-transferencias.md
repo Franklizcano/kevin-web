@@ -8,23 +8,17 @@ source: Pagos/no se pudieron enviar las transferencias.docx
 reviewed: true
 ---
 
-# No se pudieron enviar las transferencias
+Este error se da cuando algún operador de una empresa quiere enviar transferencias de banca electrónica (cuentas propias, proveedores, terceros, sueldos) y le da el error que no se pudieron enviar las tefs
 
-## Cuándo consultar esta guía
+![Imagen original del documento]({{ '/assets/originales/no-se-pudieron-enviar-transferencias/captura-01.png' | relative_url }})
 
-El envío de transferencias de cuentas propias, proveedores, terceros o sueldos devuelve un error y no se completa.
+Habitualmente puede que el cliente no tiene registros en la tabla prsib.tope_cliente y debemos insertárselos mediante script.
 
-## Verificaciones
+Igualmente, para agilizar y evitar idas y vueltas en exceso, es necesario contar con:
 
-La fuente indica que en algunos casos puede faltar una configuración de cliente que debe revisar Soporte. No realizar cambios manuales en bases o configuraciones desde esta guía.
+Cuenta origen y destino en texto plano
 
-## Datos para continuar el análisis
+Captura completa legible con Fecha y hora del incidente
 
-- Cuenta de origen y cuenta de destino en texto plano, por el canal interno aprobado.
-- Captura completa y legible con fecha y hora del incidente.
-- Identificación del operador afectado, compartida solo por el canal interno autorizado.
-
-## Escalamiento
-
-Derivar a Soporte mediante MDA con los datos anteriores. La fuente menciona corrección técnica por parte de Soporte; no incluye los pasos para ejecutarla.
+cuiL del op al que le salto el incidente
 

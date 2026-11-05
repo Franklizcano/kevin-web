@@ -8,13 +8,5 @@ source: Echeq/no visualiza el estado PAGADO.docx
 reviewed: true
 ---
 
-# Consulta del estado PAGADO de un Echeq
-
-## Alcance indicado por la fuente
-
-La fuente indica que el módulo de Echeq no almacena ni muestra el estado PAGADO. Para consultar la evolución posterior, recomienda revisar el reporte correspondiente o consultar a COELSA por el canal oficial vigente.
-
-## Precaución
-
-Confirmar que este comportamiento siga vigente y proporcionar únicamente el contacto institucional actual. No incluir direcciones personales o datos de cheques en la página.
+Es importante aclarar que el módulo ECHEQ de Interbanking no almacena ni visualiza el estado PAGADO. Para consultar la evolución posterior del cheque, el cliente puede ingresar a la ruta Reportes y generar el reporte correspondiente, donde podrá verificar el estado informado por COELSA. Otra opcion es consultar directamente con COELSA el estado de los Echeqs.(soporte@coelsa.com.ar)
 

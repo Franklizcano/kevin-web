@@ -8,15 +8,7 @@ source: Operadores/Solicitud migrar a plat 2.0.docx
 reviewed: true
 ---
 
-# Solicitud para migrar a PLAT 2.0
+Antes de solicitar la migración a la nueva visión de plataforma porque un op aún visualiza la visión anterior, primero ir directamente a incognito, si por acá puede mirar la 2.0, quiere decir que tiene es un problema de cache y debe hacer ABC en todos los navegadores que utilice, cerrar las ventanas, abrir de nuevo y podría ya ver la 2.0
 
-## Prueba inicial
-
-1. Pedir que abra la plataforma en una ventana privada.
-2. Si allí aparece PLAT 2.0, la fuente atribuye la diferencia a caché del navegador.
-3. Indicar que borre los datos de navegación en los navegadores que utiliza, cierre las ventanas y vuelva a ingresar.
-
-## Escalamiento
-
-Si PLAT 2.0 tampoco aparece en una ventana privada, la fuente no especifica el paso siguiente. Confirmar estado de migración y circuito de escalamiento con el equipo responsable.
+En muchos casos el op ya cuenta con la visión nueva, pero por problemas de cache aún visualiza la anterior.
 

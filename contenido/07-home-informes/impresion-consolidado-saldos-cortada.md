@@ -8,17 +8,27 @@ source: Home/Vista de impresion cortada en consolidado de saldos.docx
 reviewed: true
 ---
 
-# Vista de impresión cortada en Consolidado de Saldos
+al ir por consultas&gt;cuentas&gt;consolidado de saldos, abre la vista de impresión y sale cortada, aun realizando el abc, solo se ve la última página y otras partes superpuestas o en blanco.
 
-## Recorrido para reproducir
+Solicitar al cliente, los pasos desde la carga de parámetros para la generación de la búsqueda, para poder determinar donde se rompe el reporte.
 
-Solicitar al usuario que documente el proceso completo: cargar los parámetros de búsqueda, ejecutar la consulta, abrir el detalle, seleccionar la vista de impresión y guardar el PDF.
+Parámetros de búsqueda
 
-## Verificaciones
+![Imagen original del documento]({{ '/assets/originales/impresion-consolidado-saldos-cortada/captura-01.png' | relative_url }})
 
-Comparar el PDF generado con la vista previa. La fuente indica que el PDF puede ser correcto y que el problema se limite a la representación visual de la ventana.
+Presionar buscar – Pantalla de detalle
 
-## Datos para continuar el análisis
+![Imagen original del documento]({{ '/assets/originales/impresion-consolidado-saldos-cortada/captura-02.png' | relative_url }})
 
-Solicitar capturas o archivos de ejemplo anonimizados y el orden exacto de los pasos. La fuente no especifica navegador ni configuración de impresión; completar esos datos con el equipo responsable.
+Presionar vista de impresión
+
+![Imagen original del documento]({{ '/assets/originales/impresion-consolidado-saldos-cortada/captura-03.png' | relative_url }})
+
+Presionar imprimir
+
+![Imagen original del documento]({{ '/assets/originales/impresion-consolidado-saldos-cortada/captura-04.png' | relative_url }})
+
+Guardar el PDF
+
+Acá debería ver bien el PDF y solamente en la visión estaría el “incidente” que es un tema de visualización de texto visual disponible según los parámetros de la ventana desplegada, no seria un error.
 
