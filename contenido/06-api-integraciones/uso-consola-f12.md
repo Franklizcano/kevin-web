@@ -1,7 +1,7 @@
 ---
 title: Uso de la consola de desarrolladores (F12)
 layout: article
-category: Integraciones y referencias técnicas
+category: ABM's, Plataforma 2.0
 summary: Recopila información técnica de una solicitud fallida para facilitar el diagnóstico.
 status: revisado
 source: Guias y ayudas/Consola F12.docx
@@ -37,4 +37,3 @@ PD 1: también nos podemos guiar por las X rojas que están en la misma línea q
 ![Imagen original del documento]({{ '/assets/originales/uso-consola-f12/captura-04.png' | relative_url }})
 
 PD 2: siempre dejar las capturas de pantalla con fecha y hora para facilitar búsqueda en logs.
-
