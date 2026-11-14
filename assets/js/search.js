@@ -107,12 +107,16 @@
   if (!cards.length || !categories.length || !showAllButton) return;
 
   const showAll = ({ scroll = false } = {}) => {
+    document.querySelector(".directory-section")?.classList.remove("is-filtered");
     cards.forEach((card) => {
       card.hidden = false;
       card.classList.remove("is-selected");
       card.removeAttribute("aria-current");
     });
-    categories.forEach((category) => { category.hidden = false; });
+    categories.forEach((category) => {
+      category.hidden = false;
+      category.classList.remove("is-selected");
+    });
     showAllButton.hidden = true;
 
     if (scroll) {
@@ -123,6 +127,7 @@
   const showCategory = (slug, { scroll = false } = {}) => {
     const selectedCategory = document.getElementById(slug);
     if (!selectedCategory?.classList.contains("directory-category")) return false;
+    document.querySelector(".directory-section")?.classList.add("is-filtered");
 
     cards.forEach((card) => {
       const selected = card.getAttribute("href") === `#${slug}`;
@@ -131,7 +136,10 @@
       if (selected) card.setAttribute("aria-current", "location");
       else card.removeAttribute("aria-current");
     });
-    categories.forEach((category) => { category.hidden = category !== selectedCategory; });
+    categories.forEach((category) => {
+      category.hidden = category !== selectedCategory;
+      category.classList.toggle("is-selected", category === selectedCategory);
+    });
     showAllButton.hidden = false;
 
     if (scroll) {
@@ -163,4 +171,3 @@
   const initialSlug = location.hash.slice(1);
   if (initialSlug) showCategory(initialSlug);
 })();
-
