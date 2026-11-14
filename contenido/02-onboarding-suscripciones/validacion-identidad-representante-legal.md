@@ -1,7 +1,7 @@
 ---
 title: Recomendaciones para validar la identidad de un representante legal
 layout: article
-category: Alta, suscripciones y representantes legales
+category: Onboarding
 summary: La validación de identidad puede fallar si la imagen o las condiciones de captura no son adecuadas.
 status: revisado
 source: ONB/proceso de validacion de RL.docx
@@ -31,4 +31,3 @@ En algunas circunstancias podrían enfrentar los siguientes carteles, bien sea p
 ![Imagen original del documento]({{ '/assets/originales/validacion-identidad-representante-legal/captura-02.png' | relative_url }})
 
 ![Imagen original del documento]({{ '/assets/originales/validacion-identidad-representante-legal/captura-03.png' | relative_url }})
-
