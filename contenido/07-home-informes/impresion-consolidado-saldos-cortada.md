@@ -1,7 +1,7 @@
 ---
 title: Vista de impresión cortada en Consolidado de Saldos
 layout: article
-category: Home e informes
+category: Home y reportes
 summary: La vista previa del reporte aparece cortada o superpuesta al imprimir.
 status: revisado
 source: Home/Vista de impresion cortada en consolidado de saldos.docx
@@ -31,4 +31,3 @@ Presionar imprimir
 Guardar el PDF
 
 Acá debería ver bien el PDF y solamente en la visión estaría el “incidente” que es un tema de visualización de texto visual disponible según los parámetros de la ventana desplegada, no seria un error.
-
