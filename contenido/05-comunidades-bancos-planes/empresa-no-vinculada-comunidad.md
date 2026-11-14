@@ -1,7 +1,7 @@
 ---
 title: La empresa no aparece vinculada con la comunidad
 layout: article
-category: Comunidades, bancos y planes
+category: ABM's, Plataforma 2.0
 summary: Al realizar una operación, aparece un mensaje para relacionar una comunidad que la empresa considera vinculada.
 status: revisado
 source: Comunidades/su empresa no se encuentra vinculada con la comunidad.docx
@@ -15,4 +15,3 @@ reporta la comunidad recaudadora YPF SA ya que el cliente tiene que realizar un 
 Verificar fecha y hora, pudo haber intentado ingresar antes de darse de alta.
 
 Si persiste, enviar captura con fecha y hora por favor.
-
