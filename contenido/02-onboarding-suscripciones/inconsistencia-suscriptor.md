@@ -1,7 +1,7 @@
 ---
 title: Inconsistencia al crear o volver a registrar un suscriptor
 layout: article
-category: Alta, suscripciones y representantes legales
+category: Onboarding
 summary: No se puede crear nuevamente un suscriptor porque existen datos de una suscripción anterior.
 status: revisado
 source: ONB/inconveniente con el suscriptor.docx
@@ -35,4 +35,3 @@ Otra molestia es el cartel siguiente
 ![Imagen original del documento]({{ '/assets/originales/inconsistencia-suscriptor/captura-04.png' | relative_url }})
 
 Esto sucede cuando realizan recupero de credenciales de manera exitosa y posterior intentar loguearse, primero deben realizar un borrado de cache si están sobre una ventana común, o bien desde incognito abriendo una nueva ventana, NO pestaña.
-
