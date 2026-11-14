@@ -1,25 +1,24 @@
 - slug: transferencias-pagos
-  name: Transferencias y pagos
-  description: Transferencias, TEF, pagos de servicios y acreditaciones.
+  name: Transferencias en general y pago de servicios
+  description: Transferencias propias, a proveedores y BtoB. Pago de servicios, ARCA y VEP.
 - slug: onboarding
-  name: Alta, suscripciones y representantes legales
-  description: Altas, suscripciones, identidad y gestión de representantes legales.
+  name: Onboarding
+  description: Suscriptores, suscripciones, validación de identidad y representantes legales.
 - slug: inversiones
   name: Inversiones
-  description: Suscripciones a fondos, tenencias y órdenes.
-- slug: plataforma-administracion
-  name: Plataforma y administración
-  description: Acceso, operadores, esquemas de firma y errores de SIB.
-- slug: comunidades-bancos-planes
-  name: Comunidades, bancos y planes
-  description: Vinculaciones, certificados, bancos y cambios de plan.
-- slug: integraciones-referencias-tecnicas
-  name: Integraciones y referencias técnicas
-  description: API, AUTOSIB, consola F12, certificados y formatos de archivo.
+  description: Suscripciones, tenencias, bancos y órdenes.
+- slug: errores-referencia-sib
+  name: Errores de referencia en SIB
+  description: Errores de referencia sobre SIB y su versión anterior.
+- slug: abms-plataforma-20
+  name: ABM's, Plataforma 2.0
+  description: Login, migración a PLAT, operadores, firmas, Offerings, bancos, comunidades, DNB, cambios de plan, AUTOSIB, F12, archivos DATANET/SAP y certificados BtoB.
+- slug: api
+  name: API
+  description: Preguntas frecuentes y referencias para el uso de la API.
 - slug: home-informes
-  name: Home e informes
-  description: Saldos, reportes e impresión.
+  name: Home y reportes
+  description: Tarjetas, saldos y reportes.
 - slug: app-echeq-vep
-  name: App, Echeq y VEP
-  description: Aplicación móvil, datos biométricos, Echeq y VEP.
-
+  name: Echeq y Mobile
+  description: Cheques y aplicación móvil.
