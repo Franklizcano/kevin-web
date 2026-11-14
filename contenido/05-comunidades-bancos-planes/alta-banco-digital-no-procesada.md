@@ -1,7 +1,7 @@
 ---
 title: Error al dar de alta un banco digital
 layout: article
-category: Comunidades, bancos y planes
+category: ABM's, Plataforma 2.0
 summary: La solicitud de alta de una cuenta en un banco digital no se puede procesar.
 status: revisado
 source: DNB/alta DNB- No podemos procesar tu solicitud.docx
@@ -17,4 +17,3 @@ le sale un cartel indicando “no se pudo procesar solicitud”
 Como podemos verificar en la evidencia, está tratando de dar de alta			 el “Galicia Más” un banco que no esté operativo en IB.
 
 Siempre debemos verificar que los bancos seleccionados por el cliente estén habilitados y operativos en IB.
-
