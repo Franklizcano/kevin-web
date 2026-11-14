@@ -1,7 +1,7 @@
 ---
 title: Desactivar el acceso biométrico desde la app
 layout: article
-category: App, Echeq y VEP
+category: Echeq y Mobile
 summary: El usuario necesita dejar de iniciar sesión con huella u otro dato biométrico.
 status: revisado
 source: Mobile/eliminar solicitud de peticion huella APP.docx
@@ -27,4 +27,3 @@ Configurar datos biométricos
 podrá destildar la opción que permite iniciar sesión con datos biométricos
 
 ![Imagen original del documento]({{ '/assets/originales/desactivar-acceso-biometrico/captura-05.png' | relative_url }})
-
