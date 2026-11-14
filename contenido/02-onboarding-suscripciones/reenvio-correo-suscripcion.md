@@ -1,7 +1,7 @@
 ---
 title: Reenvío de correo de suscripción
 layout: article
-category: Alta, suscripciones y representantes legales
+category: Onboarding
 summary: El correo de suscripción no llega o la opción de reenvío aparece deshabilitada.
 status: revisado
 source: ONB/Reenvio de correo.docx
@@ -20,5 +20,4 @@ IMPORTANTE: verificar que los email sean correctos.
 
 Ingresa - deshabilitado
 
-![Imagen original del documento]({{ '/assets/originales/reenvio-correo-suscripcion/captura-02.png' | relative_url }})
-
+![Error al reenviar el correo]({{ '/assets/originales/reenvio-correo-suscripcion/captura-reemplazo.svg' | relative_url }})
