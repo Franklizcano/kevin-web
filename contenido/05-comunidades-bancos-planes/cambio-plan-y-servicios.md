@@ -1,7 +1,7 @@
 ---
 title: Error o bloqueo al cambiar de plan
 layout: article
-category: Comunidades, bancos y planes
+category: ABM's, Plataforma 2.0
 summary: La autogestión de cambio de plan muestra un error o no permite continuar.
 status: revisado
 source: Offerings/Planes y servicios adicionales.docx
@@ -79,4 +79,3 @@ Razon social
 Planes y servicios actuales
 
 Nuevos servicios que bajar o agregar
-
