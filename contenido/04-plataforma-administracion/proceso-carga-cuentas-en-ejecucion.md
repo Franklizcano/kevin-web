@@ -1,7 +1,7 @@
 ---
 title: Carga de cuentas bloqueada por un proceso en ejecución
 layout: article
-category: Plataforma y administración
+category: ABM's, Plataforma 2.0
 summary: La carga de cuentas indica que ya existe otro proceso en ejecución.
 status: revisado
 source: Cuentas/ya existe un proceso en ejecucion.docx
@@ -13,4 +13,3 @@ En algunos casos podemos recibir incidentes donde indiquen que intentan hacer un
 Se debe a que el proceso anterior quedo colgado.
 
 Es un error conocido, pero no habitual, se debe levantar un caso a Soporte mediante MDA para corregir por script.
-
