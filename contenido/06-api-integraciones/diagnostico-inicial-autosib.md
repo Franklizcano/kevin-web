@@ -1,7 +1,7 @@
 ---
 title: Diagnóstico inicial de AUTOSIB
 layout: article
-category: Integraciones y referencias técnicas
+category: ABM's, Plataforma 2.0
 summary: Primeras verificaciones ante problemas de conexión, acceso, cortes o reinicios de AUTOSIB.
 status: revisado
 source: Autosib/Validaciones de errores.docx; Guias y ayudas/autosib.docx
@@ -109,4 +109,3 @@ Al recibir o analizar el caso, se debe contar con capturas de pantalla de las pr
 | ☐ | Prueba con línea directa de Internet realizada o solicitada. |  |
 | ☐ | Prueba en otra máquina y/o red realizada o solicitada. |  |
 | ☐ | Capturas, IP pública, logs y ventana de reunión técnica adjuntados al caso. |  |
-
