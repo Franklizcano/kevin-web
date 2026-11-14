@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes de API
 layout: article
-category: Integraciones y referencias técnicas
+category: API
 summary: Aclara el alcance de la API, los estados y mensajes de respuesta, y qué pasos ocurren en la plataforma web.
 status: revisado
 source: API/Preguntas frecuentes.docx
@@ -141,4 +141,3 @@ esto se puede ver al contratar el plan en el portal de api
 como obtengo los movimientos con fecha valor
 
 Para obtener los movimientos fecha valor se debe confeccionar el informe ZUGHUS
-
