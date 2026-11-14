@@ -1,7 +1,7 @@
 ---
 title: No se pudieron enviar las transferencias
 layout: article
-category: Transferencias y pagos
+category: Transferencias en general y pago de servicios
 summary: El operador no logra enviar una o más transferencias desde banca electrónica.
 status: revisado
 source: Pagos/no se pudieron enviar las transferencias.docx
@@ -21,4 +21,3 @@ Cuenta origen y destino en texto plano
 Captura completa legible con Fecha y hora del incidente
 
 cuiL del op al que le salto el incidente
-
