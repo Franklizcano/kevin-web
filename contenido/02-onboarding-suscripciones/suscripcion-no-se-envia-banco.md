@@ -1,7 +1,7 @@
 ---
 title: La suscripción no se envía al banco
 layout: article
-category: Alta, suscripciones y representantes legales
+category: Onboarding
 summary: El envío de la suscripción no se completa y puede estar relacionado con la cuenta o las credenciales.
 status: revisado
 source: ONB/No se envia suscrip al banco.docx
@@ -25,4 +25,3 @@ ar.com.ib.ruc.service.RutinasCbuBancosRucException: validaCuenta.digitoErroneo
 Imagen de referencia, donde podemos visualizar “No podemos enviar la solicitud”
 
 ![Imagen original del documento]({{ '/assets/originales/suscripcion-no-se-envia-banco/captura-01.png' | relative_url }})
-
