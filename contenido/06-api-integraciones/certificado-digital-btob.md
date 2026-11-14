@@ -1,7 +1,7 @@
 ---
 title: Certificado digital del servicio BtoB
 layout: article
-category: Integraciones y referencias técnicas
+category: ABM's, Plataforma 2.0
 summary: Referencia para generar, exportar e importar el certificado público utilizado por el servicio BtoB.
 status: revisado
 source: Guias y ayudas/Instructivo Generación de Certificado Digital Servicio BtoB v1.6.docx
@@ -149,4 +149,3 @@ Luego de seleccionar el archivo presionar Guardar. El sistema mostrará el mesaj
 ![Imagen original del documento]({{ '/assets/originales/certificado-digital-btob/captura-15.png' | relative_url }})
 
 ![Imagen original del documento]({{ '/assets/originales/certificado-digital-btob/captura-16.png' | relative_url }})
-
