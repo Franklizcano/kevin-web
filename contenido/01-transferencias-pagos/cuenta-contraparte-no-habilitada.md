@@ -1,7 +1,7 @@
 ---
 title: La cuenta contraparte no está habilitada
 layout: article
-category: Transferencias y pagos
+category: Transferencias en general y pago de servicios
 summary: Al confirmar una TEF BtoB aparece un aviso de cuenta contraparte no habilitada.
 status: revisado
 source: Pagos/la cuenta contraparte no está habilitada.docx
@@ -23,4 +23,3 @@ Al ser una tef b2b, no es requerida la cuenta crédito de la comunidad habilitad
 select * from prsib.cta_contraparte where cta_id=242331462 and cli_id=503506;
 
 select * from prsib.cta_por_vend where vend_com_id=920125;
-
