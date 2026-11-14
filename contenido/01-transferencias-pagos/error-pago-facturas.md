@@ -1,7 +1,7 @@
 ---
 title: Error al pagar una factura de servicios
 layout: article
-category: Transferencias y pagos
+category: Transferencias en general y pago de servicios
 summary: No se puede avanzar con el pago o no aparece una factura que antes estaba disponible.
 status: revisado
 source: Pagos/error en pago de facturas.docx
@@ -27,4 +27,3 @@ Captura de pantalla legible con fecha y hora
 cuiL del op que recibió el error
 
 factura completa, archivo original o copia, no imágenes.
-
