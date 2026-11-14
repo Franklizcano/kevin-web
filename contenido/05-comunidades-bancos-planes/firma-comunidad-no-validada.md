@@ -1,7 +1,7 @@
 ---
 title: No se pudo validar la firma de la comunidad
 layout: article
-category: Comunidades, bancos y planes
+category: ABM's, Plataforma 2.0
 summary: La firma o el certificado digital asociado a la comunidad no se valida.
 status: revisado
 source: Comunidades/la firma de la comunidad no pudo ser validada.docx
@@ -19,4 +19,3 @@ Descargar el certificado e incluirlo en vuestros repositorios desde la siguiente
 ![Imagen original del documento]({{ '/assets/originales/firma-comunidad-no-validada/captura-02.jpg' | relative_url }})
 
 3)      Con el archivo descargado reemplazaran el que tenían en uso, instalándolo para el proceso de encripción.
-
