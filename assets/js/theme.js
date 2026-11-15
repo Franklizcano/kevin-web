@@ -24,9 +24,8 @@
     }
   };
 
-  applyTheme(root.dataset.theme || "dark");
+  applyTheme(root.dataset.theme || "light");
   toggle.addEventListener("click", () => {
     applyTheme(root.dataset.theme === "dark" ? "light" : "dark", true);
   });
 })();
-
